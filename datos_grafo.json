@@ -1,0 +1,136 @@
+{
+    "metadata": {
+        "asignatura": "Matemática Discreta",
+        "proyecto": "Ruta óptima en red de ciudades europeas",
+        "métrica": "Distancia terrestre en kilómetros por autopista (w > 0)"
+    },
+    "ciudades": [
+        "Madrid",
+        "Barcelona",
+        "París",
+        "Lyon",
+        "Bruselas",
+        "Ámsterdam",
+        "Frankfurt",
+        "Berlín",
+        "Múnich",
+        "Zúrich",
+        "Milán",
+        "Roma",
+        "Viena",
+        "Praga",
+        "Budapest"
+    ],
+    "conexiones": [
+        {
+            "origen": "Madrid",
+            "destino": "Barcelona",
+            "peso": 620
+        },
+        {
+            "origen": "Barcelona",
+            "destino": "Lyon",
+            "peso": 640
+        },
+        {
+            "origen": "Lyon",
+            "destino": "París",
+            "peso": 465
+        },
+        {
+            "origen": "París",
+            "destino": "Bruselas",
+            "peso": 310
+        },
+        {
+            "origen": "Bruselas",
+            "destino": "Ámsterdam",
+            "peso": 210
+        },
+        {
+            "origen": "Bruselas",
+            "destino": "Frankfurt",
+            "peso": 400
+        },
+        {
+            "origen": "Ámsterdam",
+            "destino": "Frankfurt",
+            "peso": 440
+        },
+        {
+            "origen": "París",
+            "destino": "Frankfurt",
+            "peso": 570
+        },
+        {
+            "origen": "Lyon",
+            "destino": "Zúrich",
+            "peso": 425
+        },
+        {
+            "origen": "Lyon",
+            "destino": "Milán",
+            "peso": 440
+        },
+        {
+            "origen": "Zúrich",
+            "destino": "Frankfurt",
+            "peso": 400
+        },
+        {
+            "origen": "Zúrich",
+            "destino": "Múnich",
+            "peso": 310
+        },
+        {
+            "origen": "Zúrich",
+            "destino": "Milán",
+            "peso": 280
+        },
+        {
+            "origen": "Milán",
+            "destino": "Roma",
+            "peso": 575
+        },
+        {
+            "origen": "Frankfurt",
+            "destino": "Berlín",
+            "peso": 550
+        },
+        {
+            "origen": "Frankfurt",
+            "destino": "Múnich",
+            "peso": 390
+        },
+        {
+            "origen": "Berlín",
+            "destino": "Praga",
+            "peso": 350
+        },
+        {
+            "origen": "Múnich",
+            "destino": "Praga",
+            "peso": 380
+        },
+        {
+            "origen": "Múnich",
+            "destino": "Viena",
+            "peso": 430
+        },
+        {
+            "origen": "Praga",
+            "destino": "Viena",
+            "peso": 330
+        },
+        {
+            "origen": "Viena",
+            "destino": "Budapest",
+            "peso": 245
+        },
+        {
+            "origen": "Praga",
+            "destino": "Budapest",
+            "peso": 525
+        }
+    ]
+}
